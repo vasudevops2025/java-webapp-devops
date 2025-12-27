@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/<your-username>/java-webapp-devops.git'
+                git 'https://github.com/vasudevops2025/java-webapp-devops'
             }
         }
         stage('Build with Maven') {
